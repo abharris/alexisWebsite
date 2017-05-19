@@ -1,0 +1,51 @@
+h1 {
+  font-family: "Barrio", cursive;
+  color: #b8e55c;
+  background-color: white;
+  font-size: 90px;
+  text-align: center;
+}
+
+.bio {
+  font-family: 'Khula', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.transition {
+  font-family: "Barrio", cursive;
+  color: #b8e55c;
+  background-color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.personalPic {
+  height: 500px;
+  width: 450px;
+  display: block;
+  margin: auto;
+}
+
+.dividerTop {
+  height: 50px;
+  width: 950px;
+  display: block;
+  margin-top: -60px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  display: block;
+  text-align: center;
+
+}
+
+.dividerBottom {
+  height: 50px;
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+
+}
