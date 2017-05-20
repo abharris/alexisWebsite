@@ -13,7 +13,9 @@ h1 {
 .bio {
   font-family: 'Khula', sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .transition {
@@ -42,7 +44,6 @@ h1 {
   width: 65%;
   display: block;
   text-align: center;
-
 }
 
 .dividerBottom {
@@ -51,5 +52,4 @@ h1 {
   display: block;
   margin: 0 auto;
   padding-top: 50px;
-
 }
