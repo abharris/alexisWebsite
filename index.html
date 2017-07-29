@@ -25,15 +25,15 @@
    <script>
       function initMap() {
         var france = {lat: 43.97, lng: 4.76};
-        //var china = {lat: , lng: };
-        //var australia = {lat: , lng: };
+        var UAE = {lat: 25.074, lng: 54.974};
+        var australia = {lat: -33.84, lng: 150.65};
         var ocean_center = {lat: 33.526, lng: -41.117};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
+          zoom: 2.5,
           center: ocean_center
         });
         var marker = new google.maps.Marker({
-          position: france,
+          position: france, UAE, australia
           map: map
         });
       }
