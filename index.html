@@ -24,25 +24,19 @@
   <div id="map">These are some of the places I've been!</div>
    <script>
       function initMap() {
-        var france = {lat: 43.97, lng: 4.76};
-        var UAE = {lat: 25.074, lng: 54.974};
-        var australia = {lat: -33.84, lng: 150.65};
-        var ocean_center = {lat: 33.526, lng: -41.117};
+        var uluru = {lat: -25.363, lng: 131.044};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 2.5,
-          center: ocean_center
+          zoom: 4,
+          center: uluru
         });
         var marker = new google.maps.Marker({
-          position: france
+          position: uluru,
           map: map
         });
-        //var marker2 = new google.maps.Marker({
-        //  position: UAE
-        //  map: map
-        //});
       }
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvIJ36pDDitERzGv7DMfX4vWnU8sxBp0A&callback=initMap">
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YAIzaSyDvIJ36pDDitERzGv7DMfX4vWnU8sxBp0A&callback=initMap">
     </script>
   
   <p class = "bio"> 3) I have a Shih Tzu named Coco </p>
