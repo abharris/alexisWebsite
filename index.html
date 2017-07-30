@@ -19,7 +19,7 @@
   <p class = "bio"> I'd be excited to work with the DALI Lab because the projects in it are super cool and innovative. I think the lab is an awesome, fun learning environment, and I'd love to be a part of it! As a first term dev in the lab, I'd be excited to learn as much as I can about developing with a group. I'd also be excited to build on my web and app development skills! </p>
   <h3 class = "transition"> A few fun facts... </h3>
   <p class = "bio"> 1) I love being outside, boat rides and ice cream (especially Ice Cream Fore-U) </p>
-  <p class = "bio"> 2) I like to travel! These are some of the places I've been...</p>
+  <p class = "bio"> 2) I like to travel! These are some of the places I've been!</p>
   
   <div id="map"></div>
    <script>
@@ -38,6 +38,7 @@
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 2,
           center: france_center
+          mapTypeId: google.maps.MapTypeId.ROADMAP
         });
        
         var marker, i;
