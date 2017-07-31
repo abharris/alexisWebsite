@@ -53,10 +53,20 @@
         for (i = 0; i < locations.length; i++) { 
            marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            animation: google.maps.Animation.DROP,
             map: map
           });
         }
+        marker.addListener('click', toggleBounce);
       }
+     
+     function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+     }
     </script>    
         
     <script async defer
