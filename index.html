@@ -57,7 +57,18 @@
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             animation: google.maps.Animation.DROP,
             map: map
+           
+            
           });
+          
+          var infowindow = new google.maps.InfoWindow();
+          google.maps.event.addListener(marker, 'click', (function(marker, i) {
+            return function() {
+                infoWindow.setContent(infoWindowContent[i][0]);
+                infoWindow.open(map, marker);
+            }
+        })(marker, i));
+          
         }
         marker.addListener('click', toggleBounce);
       }
